@@ -3,10 +3,8 @@ import tensorflow as tf;
 
 keras = tf.keras
 # Create a tensorflow model that is a single layer with keras,
-#
 # units=1 specifies that there will be one output neuron in this layer. 
 # This means that the layer will output a single scalar value, which is a real number.
-#
 # input_shape=[1] specifies the shape of the input to this layer. In this case, 
 # the input is a one-dimensional array with one element. This means that the input to this 
 # layer is a single scalar value, which is a real number
